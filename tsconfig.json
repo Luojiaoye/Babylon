@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "noResolve": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "isolatedModules": false,
+        "lib": [
+            "dom",
+            "es2015.promise",
+            "es6"
+        ],
+        "declaration": true,
+        "outDir": "./dist"
+    },
+    "files": [
+        "./src/Game.ts"
+    ],
+    "types": [
+        "babylonjs",
+        "babylonjs-loaders",
+    ],
+}
